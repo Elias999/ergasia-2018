@@ -12,7 +12,7 @@ def allagi():
                 rot13.append(alphabet[thesi])
 while True:
     os.system('clear')
-    epilogi = input("Give 'I' to type a text or 'F' for insert a text file or 'X' for exit: \n")
+    epilogi = input("Press 'I' to type a text or 'F' for insert a text file or 'X' for exit: \n")
     if epilogi == "I" or epilogi == "i":
         keimeno = input("Give the text for encode it to ROT13: \n")
         keimeno_kefalaia = keimeno.upper()

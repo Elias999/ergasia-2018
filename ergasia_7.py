@@ -1,5 +1,5 @@
 import calendar
-import os,sys
+import sys
 
 #Φτίαχνει το αρχειό με τις ημερομηνιες για τα επομενα 10 χρόνια
 def makeCale():
